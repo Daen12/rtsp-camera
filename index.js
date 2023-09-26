@@ -1,9 +1,9 @@
 Stream = require('node-rtsp-stream')
 stream = new Stream({
 	name: 'name',
-	streamUrl: 'rtsp://admin:ssafy@192.168.119.162:554/stream_ch00_0',
+	streamUrl: 'rtsp://admin:ssafy9thspecial@sleepmate2.iptimecam.com:554/stream_ch00_0',
 	wsPort: 9999,
-	ffmpegOptions: { 
+	ffmpegOptions: { 	
 		'-stats': '', 
 		'-r': 30 
 	}
